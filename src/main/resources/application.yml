@@ -1,2 +1,10 @@
 logging:
   file: debug.log
+  level:
+    org.springframework.web: ERROR
+
+spring:
+  profiles:
+    active: default
+  main:
+    logStartupInfo: false
